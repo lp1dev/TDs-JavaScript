@@ -2,6 +2,15 @@
 
 Le but de cet exercice est de faire un traducteur leet speak.
 
+t => 7
+i => 1
+s => 5
+e => 3
+g => 6
+o => 0
+b => 8
+a => 4
+
 */
 
 /* TD Part */
