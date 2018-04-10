@@ -43,7 +43,7 @@ function test() {
         return false
     } else if (robbie.do(3, text) !== 'Je suis un 7es7') {
         return false
-    } else if (robbie.do(4, text) !== '#### #### #### ####' || robbie.do(4, text) !== '## #### ## ####') {
+    } else if (robbie.do(4, text) !== '#### #### #### ####' && robbie.do(4, text) !== '## #### ## ####') {
         return false
     } else if (robbie.do(5, text, 'test', 'toast') !== 'Je suis un toast') {
         return false
