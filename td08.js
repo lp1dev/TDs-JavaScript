@@ -15,7 +15,7 @@ Instructions :
 
 1 [prénom]                  // Retourner 'Bonjour {prénom}!'
 2                           // Retourner la date au format UTC
-3 [texte]                   // Remplacer les 't' par des '1' dans {texte}
+3 [texte]                   // Remplacer les 't' par des '7' dans {texte}
 4 [texte]                   // Remplacer tous les mots par '####' dans {texte}
 5 [texte, mot, alt]         // Remplacer {mot} par {alt} dans {texte}
 6 [texte]                   // Remplacer la chaine 'date' par la date au format UTC dans {texte}
