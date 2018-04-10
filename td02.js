@@ -15,7 +15,7 @@ Il sera également possible de connaître le nombre de fonctions dans la queue e
 
 Exemple :
 
-var queue = new ExecutionQueue
+var queue = ExecutionQueue()
 
 queue.size() // 0
 
@@ -31,7 +31,7 @@ function ExecutionQueue() {
 }
 
 /* Testing Part */
-var queue = new ExecutionQueue()
+var queue = ExecutionQueue()
 queue.push(function() {
     return 'test'
 })
